@@ -1,14 +1,15 @@
 body{background: white;}
 h1{color: red}
 a{
-
-display: flex;
-align-items: flex-start;
-flex-direction:row-reverse;
-justify-content: space-around;
 transition: color 3s;
    }
-   :hover a  {
-color: blue;
+   a:hover  {
+background: green;
 
+}
+nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction:row-reverse;
+  justify-content: space-around;
 }
